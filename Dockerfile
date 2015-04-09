@@ -8,4 +8,4 @@ RUN \
   wget http://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && \
   dpkg -i erlang-solutions_1.0_all.deb && \
   apt-get update && \
-  apt-get install -y --force-yes --no-install-recommends erlang-nox=1:17.4 erlang-dev=1:17.4 erlang-src=1:17.4
+  apt-get install -y --force-yes --no-install-recommends erlang-nox=1:17.5 erlang-dev=1:17.5 erlang-src=1:17.5
