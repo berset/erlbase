@@ -10,4 +10,5 @@ RUN \
   apt-get update && \
   apt-get install -y --force-yes --no-install-recommends erlang-nox=1:17.5.3 erlang-dev=1:17.5.3 erlang-src=1:17.5.3
 COPY rebar /usr/local/bin/rebar
+COPY validate_config /usr/local/bin/validate_config
 
