@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:xenial-20151218.1
 
 RUN \
   sed -i 's/# \(.*multiverse$\)/\1/g' /etc/apt/sources.list && \
