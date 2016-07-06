@@ -8,7 +8,7 @@ RUN \
   wget http://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && \
   dpkg -i erlang-solutions_1.0_all.deb && \
   apt-get update && \
-  apt-get install -y --no-install-recommends erlang-nox=1:19.0 erlang-dev=1:19.0 erlang-src=1:19.0
+  apt-get install -y --no-install-recommends erlang-nox erlang-dev erlang-src
 COPY rebar /usr/local/bin/rebar
 COPY validate_config /usr/local/bin/validate_config
 
